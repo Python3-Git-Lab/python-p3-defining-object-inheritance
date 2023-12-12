@@ -4,3 +4,6 @@ from vehicle import Vehicle
 class Car(Vehicle):
     def go(self):
         return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+
+car1= Car("toyota",30 , 35)
+car1.fill_up_tank()
