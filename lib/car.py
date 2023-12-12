@@ -1,4 +1,6 @@
 from vehicle import Vehicle
 
+#-----sub-class
 class Car(Vehicle):
-    pass
+    def go(self):
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
